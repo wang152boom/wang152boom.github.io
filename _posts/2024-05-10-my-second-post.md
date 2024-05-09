@@ -1,6 +1,6 @@
 ---
 layout: default
-title: My First Post
+title: My second Post
 date: 2024-05-10
 ---
 
