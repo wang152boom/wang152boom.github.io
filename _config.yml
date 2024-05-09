@@ -1,4 +1,8 @@
-# Jekyll configuration
-title: Your Site Title
-description: Your site description
+# Site settings
+title: Your Personal Blog
+description: A simple and beautiful personal blog.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://yourusername.github.io" # the base hostname & protocol for your site
+
+# Build settings
 theme: jekyll-theme-minimal
