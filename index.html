@@ -1,12 +1,18 @@
----
-title: Home
----
-
-<div class="content">
-  <h2>Recent Posts1</h2>
-  {% for post in site.posts %}
-  <h2>{{ post.title }}</h2>
-  {% endfor %}
-</div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Blog</title>
+</head>
+<body>
+    <h1>Welcome to My Blog!</h1>
+    <ul>
+    {% for post in site.posts %}
+        <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+    </ul>
+</body>
+</html>
 
 
