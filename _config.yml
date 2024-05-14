@@ -1,8 +1,7 @@
 # Site settings
 title: Your Personal Blog
-description: A simple and beautiful personal blog.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://yourusername.github.io/yourrepositoryname" # the base hostname & protocol for your site
+baseurl:
+url: "https://yourusername.github.io/yourrepositoryname"
 
 # Build settings
 theme: jekyll-theme-minimal
