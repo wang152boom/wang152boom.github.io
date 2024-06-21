@@ -1,9 +1,19 @@
 ---
 layout: default
+title: 首页
 ---
 
-<div class="container">
-    <h1>don't go to Our Glass Company</h1>
-    <p>Learn about our glass products and explore our company culture. We are always looking for talented individuals to join our team.</p >
-</div>
+<div class="home">
+    <h2>欢迎来到我的博客</h2>
+    <p>这里记录着我的编程之旅，以及生活的点点滴滴。</p>
 
+    <h3>最新文章</h3>
+    <ul>
+        {% for post in site.posts %}
+            <li>
+                <a href="{{ post.url }}">{{ post.title }}</a>
+                <p>{{ post.excerpt }}</p>
+            </li>
+        {% endfor %}
+    </ul>
+</div>
